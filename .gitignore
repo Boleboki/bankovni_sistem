@@ -1,0 +1,42 @@
+# --- Visual Studio build fajlovi ---
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+
+# --- Binaries ---
+*.exe
+*.lib
+*.exp
+
+# --- VS fajlovi koje ne treba pratiti ---
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# --- Auto-generated resources ---
+*.log
+*.tlog
+*.lastbuildstate
+
+# --- Ako koristiš nuget ---
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# --- Ako koristiš testove ---
+TestResults/
+
+# --- Ako koristiš paket menadžere ---
+packages/
